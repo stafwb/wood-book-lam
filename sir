@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Деревянные подставки для книги — ручная работа</title>
+  <meta name="description" content="Эстетичные подставки для книг из натурального дерева. Готовые варианты на Авито и эксклюзивные заказы в Telegram. 30 лет опыта работы с деревом." />
+
+  <style>
+    :root{
+      --bg:#fbf7f1;
+      --card:#ffffffcc;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --accent:#8b5e34;      /* тёплый “деревянный” */
+      --accent2:#2f6f56;     /* мягкий зелёный */
+      --border: rgba(31,41,55,.10);
+      --shadow: 0 18px 45px rgba(31,41,55,.10);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(900px 500px at 15% 0%, rgba(139,94,52,.14), transparent 60%),
+        radial-gradient(800px 500px at 90% 10%, rgba(47,111,86,.12), transparent 55%),
+        var(--bg);
+    }
+    a{color:inherit}
+    .wrap{max-width:980px; margin:0 auto; padding:28px 16px 60px}
+    .top{display:flex; justify-content:space-between; gap:12px; align-items:center; flex-wrap:wrap}
+    .brand{display:flex; gap:12px; align-items:center}
+    .logo{
+      width:42px; height:42px; border-radius:14px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: var(--shadow);
+    }
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:8px 12px; border:1px solid var(--border);
+      border-radius:999px; color:var(--muted); font-size:13px;
+      background: rgba(255,255,255,.35);
+      backdrop-filter: blur(6px);
+    }
+
+    .hero{
+      margin-top:22px;
+      display:grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap:16px;
+    }
+    @media (max-width:900px){ .hero{grid-template-columns:1fr} }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(8px);
+    }
+    .card-inner{padding:22px}
+    h1{margin:0 0 10px; font-size:40px; line-height:1.08; letter-spacing:-.2px}
+    @media (max-width:520px){ h1{font-size:32px} }
+    .lead{margin:0 0 14px; color:var(--muted); font-size:16px; line-height:1.6}
+
+    .btns{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:8px;
+      padding:12px 14px; border-radius:14px;
+      border:1px solid var(--border);
+      text-decoration:none; font-weight:650;
+      background: rgba(255,255,255,.55);
+    }
+    .btn.primary{
+      border-color: transparent;
+      background: linear-gradient(135deg, var(--accent), #b7793b);
+      color: #fff;
+    }
+    .btn.secondary{
+      border-color: transparent;
+      background: linear-gradient(135deg, var(--accent2), #2a8b67);
+      color:#fff;
+    }
+    .fine{margin-top:10px; color:var(--muted); font-size:13px; line-height:1.5}
+
+    .grid{margin-top:16px; display:grid; grid-template-columns:1fr 1fr; gap:12px}
+    @media (max-width:820px){ .grid{grid-template-columns:1fr} }
+
+    h2{margin:0 0 10px; font-size:18px}
+    .muted{color:var(--muted); margin:0; line-height:1.6}
+    .list{display:grid; gap:10px; margin-top:12px}
+    .item{
+      padding:12px 14px; border:1px solid var(--border);
+      border-radius: 14px; background: rgba(255,255,255,.55);
+    }
+    .item b{display:block; margin-bottom:4px}
+
+    .imgbox{
+      border-radius: 16px;
+      border:1px dashed rgba(31,41,55,.18);
+      background: rgba(255,255,255,.45);
+      height: 210px;
+      display:flex; align-items:center; justify-content:center;
+      color: var(--muted);
+      text-align:center;
+      padding: 12px;
+    }
+    .quote{
+      margin-top:12px;
+      padding:14px;
+      border-radius:16px;
+      border:1px solid rgba(31,41,55,.12);
+      background: rgba(255,255,255,.55);
+    }
+    .quote .muted{display:block; margin-top:6px}
+
+    .faq details{
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:12px 14px;
+      background: rgba(255,255,255,.55);
+    }
+    .faq details + details{margin-top:10px}
+    .faq summary{cursor:pointer; font-weight:650}
+
+    footer{
+      margin-top:26px; color:var(--muted); font-size:13px;
+      display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap
+    }
+    .links{display:flex; gap:12px; flex-wrap:wrap}
+    .links a{color:var(--muted); text-decoration:none; border-bottom:1px dotted rgba(31,41,55,.35)}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="font-weight:750">Мастерская изделий из дерева</div>
+          <div class="pill">Ручная работа • натуральное дерево • эстетика</div>
+        </div>
+      </div>
+      <div class="pill">🎁 Идеально в подарок</div>
+    </div>
+
+    <div class="hero">
+      <div class="card">
+        <div class="card-inner">
+          <h1>Подставки для книг из дерева — красиво, удобно, надолго</h1>
+          <p class="lead">
+            Для чтения, кулинарных книг и эстетичного интерьера. Делаем аккуратно: дерево, обработка, детали — как для себя.
+          </p>
+
+          <div class="btns">
+            <a class="btn primary" href="AVITO_LINK" target="_blank" rel="noreferrer">Смотреть на Авито →</a>
+            <a class="btn secondary" href="TG_LINK" target="_blank" rel="noreferrer">Идеи / эксклюзив в Telegram →</a>
+            <a class="btn" href="#why">Почему наши</a>
+          </div>
+
+          <div class="fine">
+            На Авито — готовые варианты и актуальные цены. В Telegram — идеи, нестандартные размеры, эксклюзивные заказы.
+          </div>
+
+          <div class="list" id="why">
+            <div class="item">
+              <b>✨ Эстетика</b>
+              <div class="muted">Тёплое натуральное дерево — украшает стол, кухню и книжную полку.</div>
+            </div>
+            <div class="item">
+              <b>🙌 Удобство чтения</b>
+              <div class="muted">Освобождает руки, держит книгу открытой, помогает читать дольше без напряжения.</div>
+            </div>
+            <div class="item">
+              <b>🌿 Ручная работа + опыт</b>
+              <div class="muted">30 лет работы с деревом — можем сделать не просто “подставку”, а вещь под вашу задачу.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <h2>Фото / примеры</h2>
+          <p class="muted">Добавь 2–4 фото: общий вид + деталь (текстура дерева) + в интерьере.</p>
+          <div class="imgbox" style="margin-top:12px">
+            Здесь будет фото товара (замени на &lt;img&gt; позже)
+          </div>
+
+          <div class="quote">
+            “Очень красивая подставка, дерево приятно пахнет, идеально на кухню”.  
+            <span class="muted">— отзыв покупателя (вставь реальный)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="card-inner">
+          <h2>Как купить</h2>
+          <p class="muted">Самый быстрый путь — через Авито: доставка/оплата по правилам площадки.</p>
+          <div class="list">
+            <div class="item"><b>1) Открываете Авито</b><div class="muted">Смотрите доступные варианты.</div></div>
+            <div class="item"><b>2) Выбираете подставку</b><div class="muted">По размеру/виду/назначению.</div></div>
+            <div class="item"><b>3) Оформляете заказ</b><div class="muted">И получаете красивую вещь домой 🙂</div></div>
+          </div>
+          <div class="btns" style="margin-top:14px">
+            <a class="btn primary" href="AVITO_LINK" target="_blank" rel="noreferrer">Перейти на Авито →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card faq">
+        <div class="card-inner">
+          <h2>FAQ</h2>
+
+          <details>
+            <summary>Можно сделать по моим размерам / идее?</summary>
+            <p class="muted">Да. Пишите идею в Telegram: под книгу, планшет, кулинарную книгу, нестандартный угол/размер.</p>
+          </details>
+
+          <details>
+            <summary>Из какого дерева и какая обработка?</summary>
+            <p class="muted">Напишите здесь правду: породы дерева, покрытие (масло/воск/лак), как ухаживать.</p>
+          </details>
+
+          <details>
+            <summary>Это подходит в подарок?</summary>
+            <p class="muted">Да. Добавь фразу: “Можем упаковать / приложить открытку” — если реально делаете.</p>
+          </details>
+
+          <div class="btns" style="margin-top:14px">
+            <a class="btn secondary" href="TG_LINK" target="_blank" rel="noreferrer">Написать в Telegram →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div>© <span id="y"></span> Мастерская</div>
+      <div class="links">
+        <a href="AVITO_LINK" target="_blank" rel="noreferrer">Авито</a>
+        <a href="TG_LINK" target="_blank" rel="noreferrer">Telegram</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
